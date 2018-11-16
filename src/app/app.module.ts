@@ -18,6 +18,7 @@ import { UserAdminComponent } from './user-admin/user-admin.component';
 import { UserCreateComponent } from './user-create/user-create.component';
 import { DeviceViewComponent } from './device-view/device-view.component';
 import { DeviceAdminComponent } from './device-admin/device-admin.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DeviceAdminComponent } from './device-admin/device-admin.component';
     UserAdminComponent,
     UserCreateComponent,
     DeviceViewComponent,
-    DeviceAdminComponent
+    DeviceAdminComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
